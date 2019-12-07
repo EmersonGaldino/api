@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "galdino.funcional.utils/1.0.0": {
+        "runtime": {
+          "galdino.funcional.utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "galdino.funcional.utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

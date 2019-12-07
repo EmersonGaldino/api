@@ -1,0 +1,15 @@
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\obj\Debug\netcoreapp2.1\galdino.funcional.data.persistence.csprojAssemblyReference.cache
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\obj\Debug\netcoreapp2.1\galdino.funcional.data.persistence.AssemblyInfoInputs.cache
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\obj\Debug\netcoreapp2.1\galdino.funcional.data.persistence.AssemblyInfo.cs
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.data.persistence.deps.json
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.data.persistence.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.data.persistence.pdb
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.utils.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.pdb
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.pdb
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\bin\Debug\netcoreapp2.1\galdino.funcional.utils.pdb
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\obj\Debug\netcoreapp2.1\galdino.funcional.data.persistence.csproj.CopyComplete
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\obj\Debug\netcoreapp2.1\galdino.funcional.data.persistence.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.data.persistence\obj\Debug\netcoreapp2.1\galdino.funcional.data.persistence.pdb

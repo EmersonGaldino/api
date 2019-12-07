@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>galdino.funcional.api</name>
+    </assembly>
+    <members>
+        <member name="M:galdino.funcional.api.Controllers.Auth.AuthenticationController.Login(galdino.funcional.api.Models.ViewModel.User.UserViewModel,galdino.funcional.domain.shared.Configurations.Token.TokenConfigurations,galdino.funcional.api.Security.SignConfigurationToken,galdino.funcional.application_2.Interface.Service.User.IUserAppService)">
+            <summary>
+            Retorna token de acesso ao usuario se o mesmo for validado corretamente
+            </summary>
+            <response code="200">Token de acesso a aplicacao</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="M:galdino.funcional.api.Controllers.Product.ProductController.GetAllProductsAsync(galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
+            <summary>
+            Retorna todos os produtos cadastrados.
+            </summary>
+            <response code="200">Historico de produtos</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="M:galdino.funcional.api.Controllers.Product.ProductController.GetProductsByIndustryAsync(galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel,galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
+            <summary>
+            Retorna todos os produtos cadastrados para a determinada industria.
+            </summary>
+            <response code="200">Historico de produtos</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="M:galdino.funcional.api.Mapper.AutoMapperConfiguration.JaMapeadoNoProfile(AutoMapper.IMapperConfigurationExpression,System.Type,System.Type)">
+            <summary>
+            Metodo para varificar se o mapeamento ja foi feito em algum profile
+            </summary>
+            <param name="mc"></param>
+            <param name="origem"></param>
+            <param name="destino"></param>
+            <returns></returns>
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.Industry">
+            <summary>
+            Insira um parametro para busca, parametro esperado nome da Industria 
+            </summary>
+            <example>meu.usuario</example>
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.User.UserViewModel.Login">
+            <summary>
+            Seu usuário do sistema
+            </summary>
+            <example>meu.usuario</example>
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.User.UserViewModel.Password">
+            <summary>
+            Sua senha cadastrada no sistema
+            </summary>
+            <example>minha.senha</example>
+        </member>
+    </members>
+</doc>

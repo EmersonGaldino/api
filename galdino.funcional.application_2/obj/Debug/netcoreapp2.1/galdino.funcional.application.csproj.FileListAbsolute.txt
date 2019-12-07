@@ -1,0 +1,13 @@
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.application.deps.json
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.application.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.application.pdb
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.pdb
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.pdb
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.csprojAssemblyReference.cache
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.AssemblyInfoInputs.cache
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.AssemblyInfo.cs
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.csproj.CopyComplete
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.dll
+C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.pdb

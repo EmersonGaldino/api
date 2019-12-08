@@ -45,7 +45,7 @@ namespace galdino.funcional.api.Configurations
             {
                 Title = $"Galdino API's v1.0",
                 Version = "1.0",
-                Description = "Incluir documentação aqui...",
+                Description = "Esta API foi desenvolvida com o intuito de executar o teste proposto. \n Para executar este projeto basta apenas rodar o projeto, pois o banco de dados está online (Após irei excluir o banco de dados). \n Criei o projeto com a arquitetura que entendo ser boa para desenvolver e dar manutenção posterior.\n <h3>Espero que curtam.</h3>",
                 Contact = new Contact() { Name = "Emerson Galdino", Email = "emersongaldino@hotmail.com",Url = "https://linkedin.com/in/emerson-galdino-88936338" }
             });
         }

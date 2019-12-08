@@ -10,6 +10,9 @@ namespace galdino.funcional.application.Interface.Service.Products
 	public interface IProductsAppService : IAppServiceBase<ProductsDomain, IProductsService, IProductsRepository>
 	{
 		Task<IList<ProductsDomain>> GetAllProductsAsync();
-		Task<IList<ProductsDomain>> GetProductsByIndustryAsync(ProductsDomain model);
+		Task<IList<ProductsDomain>> GetProductsByIndustryAsync(string model);
+		Task<ProductsDomain> ProductyUpdateAsync(ProductsDomain data);
+		Task<IList<ProductsDomain>> ProductyCreateAsync(IList<ProductsDomain> data);
+		Task<bool> ProductyDeleteAsync(int model);
 	}
 }

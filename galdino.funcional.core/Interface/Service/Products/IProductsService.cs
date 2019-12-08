@@ -11,6 +11,9 @@ namespace galdino.funcional.domain.core.Interface.Service.Products
 	public interface IProductsService : IServiceBase<ProductsDomain, IProductsRepository>
 	{
 		Task<IList<ProductsDomain>> GetAllProductsAsync();
-		Task<IList<ProductsDomain>> GetProductsByIndustryAsync(ProductsDomain model);
+		Task<IList<ProductsDomain>> GetProductsByIndustryAsync(string model);
+		Task<ProductsDomain> ProductyUpdateAsync(ProductsDomain data);
+		Task<IList<ProductsDomain>> ProductyCreateAsync(IList<ProductsDomain> data);
+		Task<bool> ProductyDeleteAsync(int model);
 	}
 }

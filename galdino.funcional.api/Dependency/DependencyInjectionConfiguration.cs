@@ -26,8 +26,7 @@ namespace galdino.funcional.api.Dependency
             //Repositorios
             RegistrarInterfaces(services, typeof(RepositoryBase<UserDomain>), "Repository", "Repository");
 
-            //Storage
-            //services.AddSingleton<IImageStorage, S3AmazonStorage>();
+         
         }
         private static void RegistrarInterfaces(IServiceCollection services, Type typeBase, string containsInNamespace, string sulfix)
         {

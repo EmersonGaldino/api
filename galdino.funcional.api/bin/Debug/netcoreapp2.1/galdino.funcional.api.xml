@@ -4,7 +4,7 @@
         <name>galdino.funcional.api</name>
     </assembly>
     <members>
-        <member name="M:galdino.funcional.api.Controllers.Auth.AuthenticationController.Login(galdino.funcional.api.Models.ViewModel.User.UserViewModel,galdino.funcional.domain.shared.Configurations.Token.TokenConfigurations,galdino.funcional.api.Security.SignConfigurationToken,galdino.funcional.application_2.Interface.Service.User.IUserAppService)">
+        <member name="M:galdino.funcional.api.Controllers.Auth.AuthenticationController.Login(galdino.funcional.api.Models.ViewModel.User.UserViewModel,galdino.funcional.domain.shared.Configurations.Token.TokenConfigurations,galdino.funcional.api.Security.SignConfigurationToken,galdino.funcional.application_2.Interface.Service.User.IUserAppService,galdino.funcional.application.Interface.Service.Log.ILoggerAppService)">
             <summary>
             Retorna token de acesso ao usuario se o mesmo for validado corretamente
             </summary>
@@ -24,11 +24,41 @@
             <response code="409">Se alguma regra de negocio for violada</response> 
             <response code="500">Erro interno desconhecido</response> 
         </member>
-        <member name="M:galdino.funcional.api.Controllers.Product.ProductController.GetProductsByIndustryAsync(galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel,galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
+        <member name="M:galdino.funcional.api.Controllers.Product.ProductController.GetProductsByIndustryAsync(System.String,galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
             <summary>
             Retorna todos os produtos cadastrados para a determinada industria.
             </summary>
-            <response code="200">Historico de produtos</response>
+            <response code="200">Lsita de produtos</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="M:galdino.funcional.api.Controllers.Product.ProductController.ProductUpdateAsync(galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel,galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
+            <summary>
+            Alterar produto.
+            </summary>
+            <response code="200">Produto alterado com sucesso</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="M:galdino.funcional.api.Controllers.Product.ProductController.ProductCreateAsync(System.Collections.Generic.IList{galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel},galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
+            <summary>
+            Criar um produto.
+            </summary>
+            <response code="200">Produto criado com sucesso</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="M:galdino.funcional.api.Controllers.Product.ProductController.ProductDeleteAsync(System.Int32,galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
+            <summary>
+            Deletar um produto.
+            </summary>
+            <response code="200">Produto deletado com sucesso</response>
             <response code="400">Se os parametros do metodo estiverem nulos</response> 
             <response code="401">Acesso negado</response> 
             <response code="409">Se alguma regra de negocio for violada</response> 
@@ -43,11 +73,41 @@
             <param name="destino"></param>
             <returns></returns>
         </member>
-        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.Industry">
+        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.Product">
             <summary>
-            Insira um parametro para busca, parametro esperado nome da Industria 
+            Nome do produto que deseja alterar.
             </summary>
-            <example>meu.usuario</example>
+            <example>Fralda pampers</example>		
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.Price">
+            <summary>
+            Valor do produto.
+            </summary>
+            <example>11.50</example>		
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.Active">
+            <summary>
+            Se o produto esta disponivel ou não.
+            </summary>
+            <example>true/false</example>		
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.Product_id">
+            <summary>
+            Id do produto que deseja alterar.
+            </summary>
+            <example>150</example>		
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.ndustryId">
+            <summary>
+            Id da industria que pertence este produto.
+            </summary>
+            <example>1</example>		
+        </member>
+        <member name="P:galdino.funcional.api.Models.ViewModel.Products.ProductsViewModel.amount">
+            <summary>
+            Quantidade do produto em estoque.
+            </summary>
+            <example>1</example>		
         </member>
         <member name="P:galdino.funcional.api.Models.ViewModel.User.UserViewModel.Login">
             <summary>

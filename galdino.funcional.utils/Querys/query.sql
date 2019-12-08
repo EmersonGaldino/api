@@ -69,3 +69,12 @@ INSERT INTO tb_industry(
             active)
     VALUES ( 'Farma Ultra', 'now()', null, 
             true);
+
+
+--Tabela de log
+CREATE TABLE tb_requestLog(
+	request_id serial PRIMARY KEY,
+	object varchar,
+	user_id integer,		
+	dh_dateinclusionregistration timestamp	
+)

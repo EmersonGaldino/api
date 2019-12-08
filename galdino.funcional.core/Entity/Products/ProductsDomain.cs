@@ -10,11 +10,13 @@ namespace galdino.funcional.domain.core.Entity.Products
 		[Column("product_id")]
 		public int Product_id { get; set; }
 		[Column("d_price")]
-		public double Price { get; set; }
+		public string Price { get; set; }
 		[Column("amount")]
 		public int Amount { get; set; }
 		[Column("active")]
 		public bool Active { get; set; }
 		public string Industry { get; set; }
+		[Column("industry_id")]
+		public int industryId { get; set; }
 	}
 }

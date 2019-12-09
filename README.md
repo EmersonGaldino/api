@@ -9,7 +9,7 @@ Projeto desenvolvido com intuto de aplicar alguns patterns como:
 *  AutoMapper
 *  DotNet Core
 
-## Intalação
+## Instalação
 
 Ao abrir o projeto faça um Restore Nuget Package.
 

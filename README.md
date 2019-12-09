@@ -27,8 +27,6 @@ Poderá ser utilizado como ferramenta de estudo!
 
 ## Creditos
 
-Emerson Galdino
-
-## Lencensiado
-
 Emerson Galdino - Desenvolvedor
+
+

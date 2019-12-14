@@ -20,8 +20,8 @@ namespace galdino.funcional.utils.Messages.message
 		public string PRODUCTS_ALL_FAIL() =>
 			"Não foi possivel buscar os produtos, tente novamente.";
 
-		public string PRODUCTS_ALL_SUCCESS() =>
-			"Estes são os produtos que localizamos.";
+		public string PRODUCTS_ALL_SUCCESS(int count) =>
+			$"Encontramos {count} produtos em nosso estoque.";
 
 		public string PRODUCTS_RESULT() =>
 			"Produtos encontrados no nosso estoque.";

@@ -11,6 +11,6 @@
 		string PRODUCT_DELETED_SUCCESS();
 		string PRODUCT_DELETED_FAIL();
 		string PRODUCTS_ALL_FAIL();
-		string PRODUCTS_ALL_SUCCESS();
+		string PRODUCTS_ALL_SUCCESS(int count);
 	}
 }

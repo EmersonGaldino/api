@@ -13,3 +13,4 @@ D:\Projetos\Particular\BackEnd\api\galdino.funcional.utils\obj\Debug\netcoreapp2
 D:\Projetos\Particular\BackEnd\api\galdino.funcional.utils\obj\Debug\netcoreapp2.1\galdino.funcional.utils.AssemblyInfo.cs
 D:\Projetos\Particular\BackEnd\api\galdino.funcional.utils\obj\Debug\netcoreapp2.1\galdino.funcional.utils.dll
 D:\Projetos\Particular\BackEnd\api\galdino.funcional.utils\obj\Debug\netcoreapp2.1\galdino.funcional.utils.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.utils\obj\Debug\netcoreapp2.1\galdino.funcional.utils.csprojAssemblyReference.cache

@@ -13,3 +13,4 @@ D:\Projetos\Particular\BackEnd\api\galdino.funcional.domain.shared\obj\Debug\net
 D:\Projetos\Particular\BackEnd\api\galdino.funcional.domain.shared\obj\Debug\netcoreapp2.1\galdino.funcional.domain.shared.AssemblyInfo.cs
 D:\Projetos\Particular\BackEnd\api\galdino.funcional.domain.shared\obj\Debug\netcoreapp2.1\galdino.funcional.domain.shared.dll
 D:\Projetos\Particular\BackEnd\api\galdino.funcional.domain.shared\obj\Debug\netcoreapp2.1\galdino.funcional.domain.shared.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.domain.shared\obj\Debug\netcoreapp2.1\galdino.funcional.domain.shared.csprojAssemblyReference.cache

@@ -16,8 +16,8 @@ namespace galdino.funcional.domain.core.Service.Log
 		#endregion
 
 		#region .::Methods
-		public async void SaveLogger(LoggerDomain model) =>
-		 GetRepository().SaveLogger(model);
+		public async void SaveLoggerSuccess(LoggerDomain model) =>
+		 GetRepository().SaveLoggerSuccess(model);
 		#endregion
 	}
 }

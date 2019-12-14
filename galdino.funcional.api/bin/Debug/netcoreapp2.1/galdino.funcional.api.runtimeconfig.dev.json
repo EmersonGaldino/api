@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\elain\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\elain\\.nuget\\packages"
+      "C:\\Users\\emers\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\emers\\.nuget\\packages"
     ]
   }
 }

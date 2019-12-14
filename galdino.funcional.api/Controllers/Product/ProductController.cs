@@ -65,7 +65,7 @@ namespace galdino.funcional.api.Controllers.Product
 			};
 
 			#region .::Log Requests
-			loggerService.SaveLogger(new LoggerDomain
+			loggerService.SaveLoggerSuccess(new LoggerDomain
 			{
 				objects = JsonConvert.SerializeObject(returnModelView),
 				userId = UsuarioId
@@ -110,11 +110,11 @@ namespace galdino.funcional.api.Controllers.Product
 			};
 
 			#region .::Log Requests
-			loggerService.SaveLogger(new LoggerDomain
+			loggerService.SaveLoggerSuccess(new LoggerDomain
 			{
 				objects = JsonConvert.SerializeObject(returnModelView),
 				userId = UsuarioId
-			}); 
+			});
 			#endregion
 
 			return Ok(returnModelView);
@@ -155,7 +155,7 @@ namespace galdino.funcional.api.Controllers.Product
 			};
 
 			#region .::Log Requests
-			loggerService.SaveLogger(new LoggerDomain
+			loggerService.SaveLoggerSuccess(new LoggerDomain
 			{
 				objects = JsonConvert.SerializeObject(returnModelView),
 				userId = UsuarioId
@@ -201,7 +201,7 @@ namespace galdino.funcional.api.Controllers.Product
 			};
 
 			#region .::Log Requests
-			loggerService.SaveLogger(new LoggerDomain
+			loggerService.SaveLoggerSuccess(new LoggerDomain
 			{
 				objects = JsonConvert.SerializeObject(returnModelView),
 				userId = UsuarioId
@@ -246,7 +246,7 @@ namespace galdino.funcional.api.Controllers.Product
 			};
 
 			#region .::Log Requests
-			loggerService.SaveLogger(new LoggerDomain
+			loggerService.SaveLoggerSuccess(new LoggerDomain
 			{
 				objects = JsonConvert.SerializeObject(returnModelView),
 				userId = UsuarioId

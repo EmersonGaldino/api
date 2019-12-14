@@ -1,14 +1,11 @@
-using galdino.funcional.application.Service;
 using galdino.funcional.application_2.Interface.Service.User;
 using galdino.funcional.domain.core.Entity.User;
-using galdino.funcional.domain.core.Interface.Service.User;
-using System;
 using Xunit;
 
 namespace galdino.funcional.XUnitTest
 {
 
-	public class UnitTestUser : 
+	public class UnitTestUser 
 	{
 		IUserAppService _usuarioAppService;
 

@@ -1012,19 +1012,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elain\\.nuget\\packages\\": {}
+    "C:\\Users\\emers\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
+      "projectUniqueName": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
       "projectName": "galdino.funcional.application",
-      "projectPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
-      "packagesPath": "C:\\Users\\elain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\obj\\",
+      "projectPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
+      "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\elain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1037,8 +1037,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\galdino.funcional.domain.core.csproj": {
-              "projectPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\galdino.funcional.domain.core.csproj"
+            "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\galdino.funcional.domain.core.csproj": {
+              "projectPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\galdino.funcional.domain.core.csproj"
             }
           }
         }

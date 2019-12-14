@@ -14,12 +14,12 @@ namespace galdino.funcional.application.Service.Log
 		{
 
 		}
-
-		#region .::Methods
-		public async void SaveLogger(LoggerDomain model) =>
-			 GetService().SaveLogger(model);
 		#endregion
 
+
+		#region .::Methods
+		public async void SaveLoggerSuccess(LoggerDomain model) =>
+			 GetService().SaveLoggerSuccess(model);
 		#endregion
 
 	}

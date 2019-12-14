@@ -7,6 +7,6 @@ namespace galdino.funcional.domain.core.Interface.Log
 {
 	public interface ILoggerService : IServiceBase<LoggerDomain, ILoggerRepository>
 	{
-		void SaveLogger(LoggerDomain model);
+		void SaveLoggerSuccess(LoggerDomain model);
 	}
 }

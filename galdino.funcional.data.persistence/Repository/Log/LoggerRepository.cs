@@ -18,9 +18,9 @@ namespace galdino.funcional.data.persistence.Repository.Log
 		#endregion
 
 		#region .::Methods
-		public async void SaveLogger(LoggerDomain model)
+		public void SaveLoggerSuccess(LoggerDomain model)
 		{
-			await Uow.GetConnection()
+			 Uow.GetConnection()
 			   .ExecuteAsync($"INSERT INTO tb_requestlog(" +
 			   $" object, user_id, dh_dateinclusionregistration) " +
 			   $"VALUES( '{model.objects}', {model.userId}, 'now()'); ", Uow.GetTransaction());

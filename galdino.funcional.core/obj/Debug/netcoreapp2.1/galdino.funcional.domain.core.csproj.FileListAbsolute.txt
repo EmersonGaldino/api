@@ -9,3 +9,14 @@ C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.fun
 C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.csproj.CopyComplete
 C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.dll
 C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.deps.json
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.dll
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.dll
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.csprojAssemblyReference.cache
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.AssemblyInfoInputs.cache
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.AssemblyInfo.cs
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.csproj.CopyComplete
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.dll
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.core\obj\Debug\netcoreapp2.1\galdino.funcional.domain.core.pdb

@@ -6,6 +6,6 @@ namespace galdino.funcional.domain.core.Interface.Repository.Log
 {
 	public interface ILoggerRepository : IRepositoryBase<LoggerDomain>
 	{
-		void SaveLogger(LoggerDomain model);
+		void SaveLoggerSuccess(LoggerDomain model);
 	}
 }

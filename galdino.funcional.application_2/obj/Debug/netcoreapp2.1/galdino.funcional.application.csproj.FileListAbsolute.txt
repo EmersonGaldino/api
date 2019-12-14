@@ -11,3 +11,16 @@ C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.fun
 C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.csproj.CopyComplete
 C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.dll
 C:\Users\elain\Desktop\projetos\funcional\back-end\galdino.funcional\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.application.deps.json
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.application.dll
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.application.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.dll
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.dll
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.core.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\bin\Debug\netcoreapp2.1\galdino.funcional.domain.shared.pdb
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.csprojAssemblyReference.cache
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.AssemblyInfoInputs.cache
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.AssemblyInfo.cs
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.csproj.CopyComplete
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.dll
+D:\Projetos\Particular\BackEnd\api\galdino.funcional.application_2\obj\Debug\netcoreapp2.1\galdino.funcional.application.pdb

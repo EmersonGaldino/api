@@ -113,12 +113,14 @@ namespace galdino.funcional.api.Controllers.Auth
 					Expira = dateExpired,
 					Token = token,
 				};
-				loggerService.SaveLogger(new domain.core.Entity.Log.LoggerDomain
+				#region Logger
+				loggerService.SaveLoggerSuccess(new domain.core.Entity.Log.LoggerDomain
 				{
 					objects = JsonConvert.SerializeObject(objRetorno.ObjetoDeRetorno),
 					token = objRetorno.ObjetoDeRetorno.Token,
 					userId = objRetorno.ObjetoDeRetorno.UsuarioId
-				});
+				}); 
+				#endregion
 				return Ok(objRetorno);
 			}
 

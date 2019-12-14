@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\galdino.funcional.application.csproj": {}
+    "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\galdino.funcional.application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\galdino.funcional.application.csproj": {
+    "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\galdino.funcional.application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
+        "projectUniqueName": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
         "projectName": "galdino.funcional.application",
-        "projectPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
-        "packagesPath": "C:\\Users\\elain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.application_2\\obj\\",
+        "projectPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\galdino.funcional.application.csproj",
+        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.application_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\galdino.funcional.domain.core.csproj": {
-                "projectPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\galdino.funcional.domain.core.csproj"
+              "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\galdino.funcional.domain.core.csproj": {
+                "projectPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\galdino.funcional.domain.core.csproj"
               }
             }
           }
@@ -67,17 +67,17 @@
         }
       }
     },
-    "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\galdino.funcional.domain.core.csproj": {
+    "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\galdino.funcional.domain.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\galdino.funcional.domain.core.csproj",
+        "projectUniqueName": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\galdino.funcional.domain.core.csproj",
         "projectName": "galdino.funcional.domain.core",
-        "projectPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\galdino.funcional.domain.core.csproj",
-        "packagesPath": "C:\\Users\\elain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.core\\obj\\",
+        "projectPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\galdino.funcional.domain.core.csproj",
+        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj": {
-                "projectPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj"
+              "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj": {
+                "projectPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj"
               }
             }
           }
@@ -126,17 +126,17 @@
         }
       }
     },
-    "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj": {
+    "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj",
+        "projectUniqueName": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj",
         "projectName": "galdino.funcional.domain.shared",
-        "projectPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj",
-        "packagesPath": "C:\\Users\\elain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elain\\Desktop\\projetos\\funcional\\back-end\\galdino.funcional\\galdino.funcional.domain.shared\\obj\\",
+        "projectPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.domain.shared\\galdino.funcional.domain.shared.csproj",
+        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Particular\\BackEnd\\api\\galdino.funcional.domain.shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

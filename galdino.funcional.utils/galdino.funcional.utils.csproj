@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\galdino.funcional.domain.shared\galdino.funcional.domain.shared.csproj" />
+  </ItemGroup>
+
 </Project>

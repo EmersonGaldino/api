@@ -7,6 +7,8 @@ using galdino.funcional.api.Mapper;
 using galdino.funcional.data.persistence.Uow.Connections;
 using galdino.funcional.domain.shared.Configurations.Application;
 using galdino.funcional.domain.shared.Interfaces.Connections;
+using galdino.funcional.domain.shared.Interfaces.Message;
+using galdino.funcional.utils.Messages.message;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
@@ -38,6 +40,7 @@ namespace galdino.funcional.api
                 new UnitOfWorkFuncional(Configuration.GetSection("Configuracoes").GetSection("Connection-Funcional").Value));
 
 
+            services.AddScoped<IMessaging, Messaging>(x => new Messaging(Configuration.GetSection("MESSAGES").GetSection("PRODUCTS_NOT_FOUND").Value));
 
             services.Configure<ApplicationConfiguration>(Configuration.GetSection("Aplicacao"));
             services.AddTransient<PerformaceFilters>();

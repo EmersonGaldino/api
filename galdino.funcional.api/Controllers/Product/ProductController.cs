@@ -8,6 +8,7 @@ using galdino.funcional.application.Interface.Service.Log;
 using galdino.funcional.application.Interface.Service.Products;
 using galdino.funcional.domain.core.Entity.Log;
 using galdino.funcional.domain.core.Entity.Products;
+using galdino.funcional.domain.shared.Interfaces.Message;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
@@ -28,10 +29,12 @@ namespace galdino.funcional.api.Controllers.Product
 		#region .::Constructor
 		private readonly IMapper _mapper;
 		private readonly ILoggerAppService loggerService;
-		public ProductController(IMapper mapper, ILoggerAppService loggerService)
+		private readonly IMessaging messages;
+		public ProductController(IMapper mapper, ILoggerAppService loggerService, IMessaging messages)
 		{
 			_mapper = mapper;
 			this.loggerService = loggerService;
+			this.messages = messages;
 		}
 		#endregion
 
@@ -105,7 +108,7 @@ namespace galdino.funcional.api.Controllers.Product
 			var returnModelView = new BaseViewModel<List<ProductsModelView>>
 			{
 				Sucesso = true,
-				Mensagem = dataReturn.Count <= 0 ? "Não encontramos nenhum produto com esta descrição" : "Tai seus produtos",
+				Mensagem = dataReturn.Count <= 0 ? messages.INDUSTRY_NOT_FOUND() : messages.PRODUCTS_RESULT(),
 				ObjetoDeRetorno = dataReturn
 			};
 
@@ -150,7 +153,7 @@ namespace galdino.funcional.api.Controllers.Product
 			var returnModelView = new BaseViewModel<ProductsModelView>
 			{
 				Sucesso = true,
-				Mensagem = dataReturn.Product_id != 0 ? "Produto alterado com sucesso." : "Não encontramos produto com este ID.",
+				Mensagem = dataReturn.Product_id != 0 ?  messages.PRODUCT_UPDATE_SUCCESS() : messages.PRODUCT_UPDATE_FAIL(),
 				ObjetoDeRetorno = dataReturn
 			};
 
@@ -196,7 +199,7 @@ namespace galdino.funcional.api.Controllers.Product
 			var returnModelView = new BaseViewModel<List<ProductsModelView>>
 			{
 				Sucesso = true,
-				Mensagem = dataReturn.Count > 0 ? "Produto criado com sucesso." : "Não foi possivel criar o produto.",
+				Mensagem = dataReturn.Count > 0 ?  messages.PRODUCT_CREATE_SUCCESS() : messages.PRODUCT_CREATE_FAIL(),
 				ObjetoDeRetorno = dataReturn
 			};
 
@@ -241,7 +244,7 @@ namespace galdino.funcional.api.Controllers.Product
 			var returnModelView = new BaseViewModel<bool>
 			{
 				Sucesso = true,
-				Mensagem = search ? "Produto deletado com sucesso." : "Não foi possivel deletar o produto.",
+				Mensagem = search ? messages.PRODUCT_DELETED_SUCCESS():  messages.PRODUCT_DELETED_FAIL(),
 
 			};
 

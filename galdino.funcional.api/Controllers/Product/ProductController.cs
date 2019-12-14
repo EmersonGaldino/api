@@ -63,6 +63,7 @@ namespace galdino.funcional.api.Controllers.Product
 			var data = _mapper.Map<List<ProductsModelView>>(search);
 			var returnModelView = new BaseViewModel<List<ProductsModelView>>
 			{
+				Mensagem = data.Count > 0?  messages.PRODUCTS_ALL_SUCCESS() : messages.PRODUCTS_ALL_FAIL(),
 				Sucesso = true,
 				ObjetoDeRetorno = data
 			};

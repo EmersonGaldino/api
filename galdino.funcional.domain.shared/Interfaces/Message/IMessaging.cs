@@ -10,5 +10,7 @@
 		string PRODUCT_CREATE_FAIL();
 		string PRODUCT_DELETED_SUCCESS();
 		string PRODUCT_DELETED_FAIL();
+		string PRODUCTS_ALL_FAIL();
+		string PRODUCTS_ALL_SUCCESS();
 	}
 }

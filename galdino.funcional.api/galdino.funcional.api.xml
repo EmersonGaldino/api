@@ -14,6 +14,16 @@
             <response code="409">Se alguma regra de negocio for violada</response> 
             <response code="500">Erro interno desconhecido</response> 
         </member>
+        <member name="M:galdino.funcional.api.Controllers.Industry.IndustryController.GetAllindustry">
+            <summary>
+            Retorna todos as industrias cadastradas.
+            </summary>
+            <response code="200">Historico de produtos</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
         <member name="M:galdino.funcional.api.Controllers.Product.ProductController.GetAllProductsAsync(galdino.funcional.application.Interface.Service.Products.IProductsAppService)">
             <summary>
             Retorna todos os produtos cadastrados.

@@ -9,7 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\ModelView\User\" />
+    <Compile Remove="Models\ModelView\User\**" />
+    <Content Remove="Models\ModelView\User\**" />
+    <EmbeddedResource Remove="Models\ModelView\User\**" />
+    <None Remove="Models\ModelView\User\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

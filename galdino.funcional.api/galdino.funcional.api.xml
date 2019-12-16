@@ -14,7 +14,7 @@
             <response code="409">Se alguma regra de negocio for violada</response> 
             <response code="500">Erro interno desconhecido</response> 
         </member>
-        <member name="M:galdino.funcional.api.Controllers.Industry.IndustryController.GetAllindustry">
+        <member name="M:galdino.funcional.api.Controllers.Industry.IndustryController.GetAllIndustry(galdino.funcional.application.Interface.Service.Industry.IIndustryAppService)">
             <summary>
             Retorna todos as industrias cadastradas.
             </summary>

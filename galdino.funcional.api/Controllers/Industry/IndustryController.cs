@@ -1,12 +1,17 @@
 ﻿using AutoMapper;
 using galdino.funcional.api.Controllers.Base;
 using galdino.funcional.api.Models.Interface.Base;
+using galdino.funcional.api.Models.ModelView.Industry;
 using galdino.funcional.api.Models.Token;
+using galdino.funcional.application.Interface.Service.Industry;
 using galdino.funcional.application.Interface.Service.Log;
+using galdino.funcional.domain.core.Entity.Log;
 using galdino.funcional.domain.shared.Interfaces.Message;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -47,9 +52,26 @@ namespace galdino.funcional.api.Controllers.Industry
 		[ProducesResponseType((int)HttpStatusCode.Unauthorized)]
 		[ProducesResponseType(typeof(BaseViewModel<ErroViewModel>), (int)HttpStatusCode.Conflict)]
 		[ProducesResponseType(typeof(BaseViewModel<ErroViewModel>), (int)HttpStatusCode.InternalServerError)]
-		public async Task<IActionResult> GetAllindustry()
+		public async Task<IActionResult> GetAllIndustry([FromServices] IIndustryAppService service)
 		{
+			var search = await service.GetAllIndustry();
+			var data = _mapper.Map<List<IndustryModeView>>(search);
+			var returnModelView = new BaseViewModel<List<IndustryModeView>>
+			{
+				Mensagem = data.Count > 0 ? messages.PRODUCTS_ALL_SUCCESS(data.Count) : messages.PRODUCTS_ALL_FAIL(),
+				Sucesso = true,
+				ObjetoDeRetorno = data
+			};
 
+			#region .::Log Requests
+			loggerService.SaveLoggerSuccess(new LoggerDomain
+			{
+				objects = JsonConvert.SerializeObject(returnModelView),
+				userId = UsuarioId
+			});
+			#endregion
+
+			return Ok(returnModelView);
 			return Ok();
 		}
 

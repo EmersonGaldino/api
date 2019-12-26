@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\Projetos\Particular\BackEnd\api\galdino.funcional.api\galdino.funcional.api.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\emerson.galdino\Documents\Projetos\Particular\api\galdino.funcional.api\galdino.funcional.api.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

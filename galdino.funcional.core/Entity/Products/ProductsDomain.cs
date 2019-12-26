@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using galdino.funcional.domain.core.Entity.Base;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace galdino.funcional.domain.core.Entity.Products
 {
 	[Table("tb_produto")]
-	public class ProductsDomain
+	public class ProductsDomain : BaseEntity
 	{
 		[Column("str_name")]
 		public string Product { get; set; }

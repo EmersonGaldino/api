@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using galdino.funcional.domain.core.Entity.Base;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace galdino.funcional.domain.core.Entity.Industry
 {
 	[Table("tb_industry")]
-	public class IndustryDomain
+	public class IndustryDomain : BaseEntity
 	{
 		[Column("industry_id")]
 		public int Id { get; set; }

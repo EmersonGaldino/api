@@ -33,20 +33,14 @@ namespace galdino.funcional.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOptions();
-
-
-
             services.AddScoped<IConnectionFuncional, UnitOfWorkFuncional>(x =>
                 new UnitOfWorkFuncional(Configuration.GetSection("Configuracoes").GetSection("Connection-Funcional").Value));
-
 
             services.AddScoped<IMessaging, Messaging>(x => new Messaging(Configuration.GetSection("MESSAGES").GetSection("PRODUCTS_NOT_FOUND").Value));
 
             services.Configure<ApplicationConfiguration>(Configuration.GetSection("Aplicacao"));
             services.AddTransient<PerformaceFilters>();
-            services.AddTransient<SecurityFilter>();
-
-            
+            services.AddTransient<SecurityFilter>();            
 
             AuthConfiguration.Register(services, Configuration);
             AutoMapperConfiguration.Register(services, Configuration);

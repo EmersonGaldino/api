@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.funcional.utils", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - API", "1.1 - API", "{E4603ECF-185A-44EA-B8C5-F569EE822674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "galdino.funcional.api", "galdino.funcional.api\galdino.funcional.api.csproj", "{9B5AC987-59B1-4D68-A574-69EDBC8A9697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.funcional.api", "galdino.funcional.api\galdino.funcional.api.csproj", "{9B5AC987-59B1-4D68-A574-69EDBC8A9697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "galdino.funcional.XUnitTest", "galdino.funcional.XUnitTest\galdino.funcional.XUnitTest.csproj", "{77286BF4-D4B5-4897-9278-3ECB00EB4065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.funcional.XUnitTest", "galdino.funcional.XUnitTest\galdino.funcional.XUnitTest.csproj", "{77286BF4-D4B5-4897-9278-3ECB00EB4065}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7DE08D10-DD3E-4BB6-AA34-D6AA75E25696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{77286BF4-D4B5-4897-9278-3ECB00EB4065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77286BF4-D4B5-4897-9278-3ECB00EB4065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77286BF4-D4B5-4897-9278-3ECB00EB4065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE08D10-DD3E-4BB6-AA34-D6AA75E25696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE08D10-DD3E-4BB6-AA34-D6AA75E25696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE08D10-DD3E-4BB6-AA34-D6AA75E25696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE08D10-DD3E-4BB6-AA34-D6AA75E25696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

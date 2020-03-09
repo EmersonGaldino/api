@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  galdino.funcional.api:
+    image: ${DOCKER_REGISTRY-}galdinofuncionalapi
+    build:
+      context: .
+      dockerfile: galdino.funcional.api\Dockerfile
